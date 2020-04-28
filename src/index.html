@@ -4,16 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>News Aggregator</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/index.css" >
 </head>
-<body>
-  <h1 class="site-title">News Aggregator</h1>
-  
-  <div class="search-container">
-    <input type="text" name="search" id="search" placeholder="Type and press enter to search..." />
-  </div>
+<body id="body">
+  <section>
+      <h1 class="site-title">News Aggregator</h1>
 
-  <ul id="news-articles">
+      <div class="search-container">
+        <form class="searchCon" >
+        <input type="text" name="search"  id="search" placeholder="Type and press enter to search..." />
+      </form>
+      </div>
+     <div class="result">  
+      <ul id="news-articles">
+             
+         
+      </ul>
+    </div>     
+   <div class="BtnContainer">
+        <!--<button class="arrowContainer">
 
-  </ul>
+        <span><img class="Pageprev" src="arrow_prev_white.png" alt="forward" width="75px"></span>  
+
+       </button>
+       <button class="arrowContainer">
+
+        <span><img class="Pagenext" src="arrow_next_white.png" alt="forward" width="75px"></span>  
+
+         </button>-->
+   </div> 
+</section>
+ <script src="./scripts/index.js"></script>
 </body>
 </html>
